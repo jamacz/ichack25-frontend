@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Figtree", sans-serif;
+}
+
+@layer base {
+  * {
+    @apply font-sans;
+  }
+
+  html,
+  body,
+  #root {
+    @apply h-full;
+  }
+}
